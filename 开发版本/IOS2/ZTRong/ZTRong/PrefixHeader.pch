@@ -1,0 +1,64 @@
+//
+//  PrefixHeader.pch
+//  ZTRong
+//
+//  Created by 李婷 on 15/5/12.
+//  Copyright (c) 2015年 李婷. All rights reserved.
+//
+
+#ifndef ZTRong_PrefixHeader_pch
+#define ZTRong_PrefixHeader_pch
+
+#import "APIClient.h"
+#import "StringHelper.h"
+#import "AppDelegate.h"
+#import "WebViewController.h"
+#import "SegmentSelectView.h"
+#import "NSDate+Category.h"
+#import "NSDateFormatter+Category.h"
+#import "Tool.h"
+#import "MainViewController.h"
+#import "UserTool.h"
+#import "MBProgressHUD.h"
+#import "ShareUitl.h"
+#import "UIImageView+WebCache.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//应用程序的宽高
+#define kAppHeight [UIScreen mainScreen].bounds.size.height
+#define kAppWidth [UIScreen mainScreen].bounds.size.width
+#define kAppNavHeight 44
+#define kAppBerBar    20
+#define kAppTabBarHeight 49
+
+// 判断设备是否为iPhone5
+#define DEVICE_IS_IPHONE5 ([[UIScreen mainScreen] bounds].size.height == 568)
+// 判断设备是否为iPhone6
+#define DEVICE_IS_IPHONE6 (kAppWidth == 375)
+// 判断设备是否为iPhone6Plus
+#define DEVICE_IS_IPHONE6Plus (kAppWidth == 414)
+#define DEVICE_IS_IPHONE4 (kAppHeight == 480)
+
+//#define htmlUrl @"http://10.18.11.236:8080/app"        //测试地址
+#define htmlUrl @"http://app.ztrong.com/app"         //外网地址
+//#define htmlUrl @"http://10.18.11.136:8080/app"
+//#define htmlUrl @"http://10.18.10.15:8086"
+//#define htmlUrl @"http://10.18.10.37:8091"
+
+#define userId @"userId"
+//用于刷新验证码
+#define t_codekeyword @"验证码不能为空"
+#define t_codekeyword1 @"您已输错3次,还剩下2次!"
+
+//用户名
+#define UserName   @"userName"
+#define Telphone   @"tel"
+//登录状态
+#define LoginStatus @"status"
+
+//rgb
+#define RGBColor(r,g,b)   [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+
+#endif
