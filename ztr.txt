@@ -1,0 +1,57 @@
+svn  svn://10.18.11.248/svn/svndata/final/ios  yusy  DfZTPLUDHUGhv1TTjD40    123456
+
+
+
+username:  chenliang@yilongcaifu.com
+           pwd:   Chenliang123 
+
+
+wifi  yiqiwanba
+
+
+
+服务器类型: MySQL连接名: 10.18.11.246主机名或 IP 地址: 10.18.11.246端口: 3306用户名: dba保存密码:20062006
+
+
+
+chenliang@yilongcaifu.com  Chenliang123
+
+
+ztrongled@126.com  Chenliang123
+ztrongled1@126.com  Chenliang123   
+ztrongled2@126.com  Chenliang123 
+
+
+https://developer.apple.com/contact/app-store/?topic=expedite     //快速申请
+
+
+
+
+旗鱼vpn  yijiuyou  ysy1314ysy
+
+筋斗云vpn  yijiuyou ysy1314ysy
+
+
+git配置公钥的链接http://blog.csdn.net/hustpzb/article/details/8230454/
+
+终端命令
+设置Git的user name和email：
+$ git config --global user.name "xuhaiyan"
+$ git config --global user.email "haiyan.xu.vip@gmail.com"
+
+二、生成SSH密钥过程：
+1.查看是否已经有了ssh密钥：cd ~/.ssh
+如果没有密钥则不会有此文件夹，有则备份删除
+2.生存密钥：
+$ ssh-keygen -t rsa -C “haiyan.xu.vip@gmail.com”
+按3个回车，密码为空。
+
+Your identification has been saved in /home/tekkub/.ssh/id_rsa.
+Your public key has been saved in /home/tekkub/.ssh/id_rsa.pub.
+The key fingerprint is:
+………………
+
+最后得到了两个文件：id_rsa和id_rsa.pub
+用公钥来配置远程服务器
+
+
